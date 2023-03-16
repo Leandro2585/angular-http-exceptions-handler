@@ -1,13 +1,6 @@
 {
   "students": [
     {
-      "id": 1,
-      "name": "Ana",
-      "email": "ana@gmail.com",
-      "birthday": "2001-04-01",
-      "createdAt": 1633923723674
-    },
-    {
       "id": 2,
       "name": "Pedro Henrique",
       "email": "pedro@gmail.com",
@@ -55,6 +48,13 @@
       "email": "bernardo@gmail.com",
       "birthday": "1995-02-27",
       "createdAt": 1633923723674
+    },
+    {
+      "name": "Leandro",
+      "email": "leanro.real@timeware.com.br",
+      "birthday": "2003-04-20",
+      "createdAt": 1679009847319,
+      "id": 9
     }
   ]
 }

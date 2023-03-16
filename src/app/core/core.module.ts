@@ -9,6 +9,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { MainComponent } from './layout/main/main.component';
 import { HeaderComponent } from './layout/header/header.component';
+import { NgxSpinnerModule } from 'ngx-spinner';
+import { ToastrModule } from 'ngx-toastr';
 
 const toastrConfig = {
   maxOpened: 1,
@@ -30,7 +32,9 @@ const toastrConfig = {
     HttpClientModule,
     CommonModule,
     RouterModule,
-    NgbModule
+    NgbModule,
+    NgxSpinnerModule,
+    ToastrModule.forRoot(toastrConfig)
   ],
   exports: [
     MainComponent
